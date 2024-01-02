@@ -3,4 +3,3 @@
     "*.tsx": ["prettier --write", "eslint"],
     "*.html": ["prettier --write"]
   }
-  
