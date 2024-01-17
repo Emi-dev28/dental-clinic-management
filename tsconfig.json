@@ -26,7 +26,6 @@
       "@appointment/*": ["src/module/appointment/*"] ,
       "@contact-info/*": ["src/module/contact-info/*"],
       "@user/*": ["src/module/user/*"],
-      "@test/*": ["src/test/*"],
       "@/*": ["src/*"],
       "@root/*": ["*"]
     }
