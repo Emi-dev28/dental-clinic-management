@@ -1,0 +1,12 @@
+entity: AddressEntity
+items:
+  address0:
+    street: "Dirección 1"
+    location: "Ubicación 1"
+    zipCode: "12345"
+    state: "Estado 1"
+  address1:
+    street: "Dirección 1"
+    location: "Ubicación 1"
+    zipCode: "12345"
+    state: "state 1"
