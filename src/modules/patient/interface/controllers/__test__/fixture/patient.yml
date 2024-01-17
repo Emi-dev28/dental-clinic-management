@@ -1,0 +1,14 @@
+entity: PatientEntity
+items:
+  patient0:
+    name: "John"
+    lastname: "Doe"
+    dni: "123456"
+    address: "@address0"
+    contactInfo: "@contactInfo0"
+  patient1:
+    name: "John"
+    lastname: "Doe"
+    dni: "123456"
+    address: "@address1"
+    contactInfo: "@contactInfo1"

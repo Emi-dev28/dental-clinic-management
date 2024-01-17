@@ -1,0 +1,8 @@
+entity: ContactInfoEntity
+items:
+  contactInfo0:
+    email: "john.doe@example.com"
+    phoneNumber: "123-456-7890"
+  contactInfo1:
+    email: "jane.smith@example.com"
+    phoneNumber: "987-654-3210"
