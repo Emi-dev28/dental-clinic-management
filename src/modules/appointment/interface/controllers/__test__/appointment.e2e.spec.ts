@@ -2,8 +2,8 @@ import { HttpStatus, INestApplication, ValidationPipe } from '@nestjs/common';
 import { join } from 'path';
 import * as request from 'supertest';
 import { Test } from '@nestjs/testing';
-import { loadFixtures } from '@data/util/loader';
 import { AppModule } from '@/app.module';
+import { loadFixtures } from '@data/util/loader';
 
 describe('Appointment - [/appointment]', () => {
   let app: INestApplication;

@@ -3,7 +3,7 @@ import { Test } from '@nestjs/testing';
 import { HttpStatus, INestApplication, ValidationPipe } from '@nestjs/common';
 import { join } from 'path';
 import { AppModule } from '@/app.module';
-import { loadFixtures } from '@root/util/loader';
+import { loadFixtures } from '@data/util/loader';
 
 describe('Patient - [/patient]', () => {
   let app: INestApplication;

@@ -2,7 +2,7 @@ import { HttpStatus, INestApplication, ValidationPipe } from '@nestjs/common';
 import { join } from 'path';
 import * as request from 'supertest';
 import { Test } from '@nestjs/testing';
-import { loadFixtures } from '@root/util/loader';
+import { loadFixtures } from '@data/util/loader';
 import { AppModule } from '@/app.module';
 import { AddressDto } from '@/modules/address/application/dto/create-address.dto';
 
