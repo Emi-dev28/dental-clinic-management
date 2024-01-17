@@ -1,8 +1,8 @@
 import { Inject, Injectable } from '@nestjs/common';
 import { UpdateResult } from 'typeorm';
 import { IContactInfoService } from './IContact-info.service';
-import { UpdateContactInfoDTO } from '../dto/updatecontactInfo.dto';
-import { ContactInfoDTO } from '../dto/contactInfo';
+import { UpdateContactInfoDTO } from '../dto/update-contactInfo.dto';
+import { ContactInfoDTO } from '../dto/contact-Info';
 import { ContactInfoRepository } from '../../infrastructure/persistence/contact-info.repository';
 import { MapperService } from '@common/application/service/mapper/mapper.service';
 import { ContactInfo } from '../../domain/contact-info.domain';

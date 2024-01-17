@@ -3,7 +3,7 @@ import { ContactInfoEntity } from './entities/contact-Info.entity';
 import { Repository, UpdateResult } from 'typeorm';
 import { IContactInfoRepository } from '../../application/repository/contact-info.repository';
 import { ContactInfo } from '../../domain/contact-info.domain';
-import { UpdateContactInfoDTO } from '../../application/dto/updatecontactInfo.dto';
+import { UpdateContactInfoDTO } from '../../application/dto/update-contactInfo.dto';
 import { MapperService } from '@common/application/service/mapper/mapper.service';
 
 export class ContactInfoRepository implements IContactInfoRepository {

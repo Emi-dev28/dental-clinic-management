@@ -1,5 +1,5 @@
 import { UpdateResult } from 'typeorm';
-import { ContactInfoDTO } from '../dto/contactInfo';
+import { ContactInfoDTO } from '../dto/contact-Info';
 
 export interface IContactInfoService {
   create(contactInfo: ContactInfoDTO): Promise<ContactInfoDTO>;

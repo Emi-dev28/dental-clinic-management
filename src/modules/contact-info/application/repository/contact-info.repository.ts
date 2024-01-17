@@ -1,5 +1,5 @@
 import { UpdateResult } from 'typeorm';
-import { UpdateContactInfoDTO } from '../dto/updatecontactInfo.dto';
+import { UpdateContactInfoDTO } from '../dto/update-contactInfo.dto';
 import { ContactInfoEntity } from '../../infrastructure/persistence/entities/contact-Info.entity';
 import { ContactInfo } from '../../domain/contact-info.domain';
 
