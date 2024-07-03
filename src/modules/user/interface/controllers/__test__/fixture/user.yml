@@ -1,0 +1,8 @@
+entity: UserEntity
+items:
+  user0:
+    email: 'john.doe1@example.com'
+    password: 'strongPassword123'
+  user1:
+    email: 'john.doe2@example.com'
+    password: 'strongPassword213'

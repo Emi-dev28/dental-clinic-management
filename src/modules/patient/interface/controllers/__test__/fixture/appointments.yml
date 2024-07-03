@@ -1,0 +1,6 @@
+entity: AppointmentEntity
+items:
+  appointment0:
+    dateTime: "2024-02-09"
+  appointment1:
+    dateTime: "2024-01-09"

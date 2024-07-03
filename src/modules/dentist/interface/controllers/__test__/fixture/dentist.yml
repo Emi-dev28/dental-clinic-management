@@ -1,0 +1,13 @@
+entity: DentistEntity
+items:
+  dentist0:
+    registrationNumber: "D12345"
+    name: "John"
+    lastname: "Doe"
+    dni: "123456789"
+  dentist1:
+    registrationNumber: "D67890"
+    name: "Jane"
+    lastname: "Smith"
+    dni: "987654321"
+
